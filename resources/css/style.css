@@ -79,7 +79,7 @@ background-position: center;
 background-size: cover;
 }
 
-.jumbotron h1, p {
+.jumbotron h1, .jumbotron p {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 

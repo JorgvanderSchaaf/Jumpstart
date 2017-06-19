@@ -8,4 +8,11 @@ $(document).ready(function(){
     pauseOnFocus: false,
     pauseOnHover: false
   });
+
+  var userScroll = 0;
+$(window).scroll(function(){
+
+
+});
+
 });
