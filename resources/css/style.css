@@ -5,6 +5,7 @@ html {
 
 body {
     font-family: "Open Sans", sans-serif;
+    line-height: 1.4;
 }
 
 h1 {
@@ -14,6 +15,7 @@ h1 {
 h2 {
   font-size: 1.7rem;
   font-weight: bold;
+  color: #399bd1;
 }
 
 h3 {
@@ -22,17 +24,6 @@ h3 {
 }
 
 
-
-.image-container img {
-  opacity: 0.50;
-  transition: transform 0.5s, opacity 0.5s;
-}
-
-.image-container img:hover {
-  opacity: 1;
-  transform: scale(1.3);
-  overflow: hidden;
-}
 
 
 /* Bootstrap Overrides */
@@ -59,7 +50,7 @@ h3 {
 
 .btn-primary:hover {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
-
+  background-color: #399bd1;
 }
 
 .btn-primary:active {
@@ -83,6 +74,10 @@ h3 {
 text-align: center;
 color: white;
 text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+height: 616px;
+padding: 11.85rem 0;
+background-position: center;
+background-size: cover;
 }
 
 .jumbotron h1 {
@@ -112,28 +107,49 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   background-image: url("../images/jumbotron-duffel.jpg");
 }
 
-
-
-
-
 @media only screen and (max-width: 768px) {
+  .jumbotron h1 {
+    font-size: 5.7rem;
+  }
+}
 
+/* Featured projects */ /* Projects */
+
+.featured-project .image-container {
+  margin-top: 20px;
+  height:23.7rem;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  opacity: 0.50;
+  transition: transform 0.5s, opacity 0.5s;
 
 }
 
-/* Featured projects */
+.image-container img:hover {
+  opacity: 1;
+  transform: scale(1.3);
+}
 
+.product-categories h3 {
+  color: #399bd1;
+}
 
+.product-categories ul {
+  color: rgba(0, 0, 0 0.7);
+}
 
+.projects {
+  margin-bottom: 5.85rem;
+}
 
-
-
-
-/* Projects */
-
-
-
-
+.projects .image-container {
+  height: 11.85rem;
+}
 
 
 /* Learn more */
@@ -148,6 +164,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 1.4rem;
+  display: inline-block;
 }
 
 .learn-more p {
