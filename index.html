@@ -5,7 +5,7 @@
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700" rel="stylesheet">
     <link href="resources/css/reset.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
     <link href="resources/css/style.css" type="text/css" rel="stylesheet">
@@ -15,7 +15,7 @@
     <!-- header -->
 
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
+      <div class="container-fluid">
         <div class="navbar-header">
         </div>
         <ul class="nav navbar-nav">
@@ -23,19 +23,40 @@
           <li><a href="#startproject">Start a project</a></li>
           <li><a href="#about">About</a></li>
         </ul>
-        <img src="resources/images/logo.png" class="navbar-brand navbar-right navbar-collapse">
+        <img class="navbar-brand navbar-right collapse navbar-collapse"src="resources/images/logo.png" >
       </div>
     </nav>
 
 
     <!-- jumbotron -->
+    <div class="carousel">
 
-    <div class="jumbotron jumbotron-bike">
-      <h1>Get Going</h1>
-      <p>Jumpstart your startup with some crowdsourced seed money,
-      or support one of our 300,000,000+ creators and get rewards.
-      </p>
-        <a href="#" class="btn btn-primary btn-lg">Jump in</a>
+      <div class="jumbotron jumbotron-bike">
+        <h1>Get Going</h1>
+        <p>Jumpstart your startup with some crowdsourced seed money,
+        or support one of our 300,000,000+ creators and get rewards.
+        </p>
+          <a href="#" class="btn btn-primary btn-lg">Jump in</a>
+      </div>
+
+      <div class="jumbotron jumbotron-beer">
+        <h1>GET THINKING.</h1>
+    <p>Meet like-minded individuals who will help fuel your creative juices.</p>
+          <a href="#" class="btn btn-primary btn-lg">Jump in</a>
+      </div>
+
+      <div class="jumbotron jumbotron-flowers">
+        <h1>GET CREATING.</h1>
+  <p>Stop overthinking projects and begin putting them out into the world.</p>
+          <a href="#" class="btn btn-primary btn-lg">Jump in</a>
+      </div>
+
+      <div class="jumbotron jumbotron-duffel">
+        <h1>GET STARTED.</h1>
+<p>What are you waiting for? Today's the day for your next big idea.</p>
+          <a href="#" class="btn btn-primary btn-lg">Jump in</a>
+      </div>
+
     </div>
 
   <!-- featured project -->
@@ -147,7 +168,7 @@
 
   <!-- Having Trouble section -->
 
-    <div class="container learn-more">
+    <div class="container-fluid learn-more">
       <strong>Having trouble thinking of an idea?</strong>
       <p>Inventors' block strikes at the worst times.
         But that's all changed with Jumpstart's Good Idea Generator Lite (GIGLi).
